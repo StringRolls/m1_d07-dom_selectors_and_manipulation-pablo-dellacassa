@@ -1,13 +1,15 @@
 // 1: Get the node with the  main title
 
-// ... your code here
+const getTitle = document.querySelector('#container > h1')
+console.log(getTitle)
 
 // => <h1>Fruits and veggies</h1>
 // ----------------------------------------------
 
 // 2: Get the main title text
 
-// ... your code here
+const getTitleContent = document.getElementsByTagName("h1")[0].innerText
+console.log(getTitleContent)
 
 // => Fruits and veggies
 // ----------------------------------------------
